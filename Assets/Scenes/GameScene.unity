@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 601378018}
   - component: {fileID: 601378017}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Game Manager
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,7 +599,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -656,7 +656,7 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: 0.42259875, y: 0.008699761, z: -0.0040567648, w: 0.90626603}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 1187990583}
   - component: {fileID: 1187990582}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327291337}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 1889525164}
   - component: {fileID: 1889525163}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2596,11 +2596,11 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 601378019}
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 1624588344305505066}
-  - {fileID: 1187990584}
-  - {fileID: 1327291339}
   - {fileID: 1889525166}
+  - {fileID: 601378019}
+  - {fileID: 1187990584}
+  - {fileID: 1624588344305505066}
+  - {fileID: 1327291339}
   - {fileID: 595573371}

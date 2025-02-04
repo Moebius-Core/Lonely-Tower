@@ -63,6 +63,9 @@ public class TowerController : CombatEntity
 
     public void ApplyUpgrade(TowerUpgradeSO upgrade)
     {
-        statistics += upgrade.statistics;
+        if (statistics.energy >= -upgrade.statistics.energy)
+        {
+            statistics += upgrade.statistics;
+        }
     }
 }

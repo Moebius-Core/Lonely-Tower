@@ -45,7 +45,7 @@ public class EnemySpawner : MonoBehaviour
             spawnedEnemies += currentGroupSize;
 
             // Pause entre chaque groupe (réduit légèrement avec le temps)
-            float delay = Mathf.Max(spawnInterval - wave * 0.05f + Random.Range(-0.2f, 0.2f), 0.1f);
+            float delay = Mathf.Max(spawnInterval - wave * 0.01f, 1f);
             yield return new WaitForSeconds(delay);
         }
 

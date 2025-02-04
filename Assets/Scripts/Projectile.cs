@@ -24,10 +24,14 @@ public class Projectile : MonoBehaviour
 
     private void Update()
     {
-        // Déplacement direct vers la cible
+        if (target == null) {
+            Destroy(gameObject);
+            return;
+        }
+        // Dï¿½placement direct vers la cible
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
 
-        // Vérification si le projectile a atteint la cible
+        // Vï¿½rification si le projectile a atteint la cible
         if (Vector3.Distance(transform.position, target.transform.position) < 0.1f)
         {
             HitTarget();

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2705286137011316497}
   - component: {fileID: -3436237727667725564}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyType3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,21 +47,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 698528770680827414, guid: 4ecf61bcba9f34b44b0fd4e31eecc081, type: 3}
   statistics:
-    attackPower: 5
-    attackSpeed: 1.2
-    attackRange: 1.5
-    critChance: 0.05
-    critMultiplier: 1.5
+    attackPower: 10
+    attackSpeed: 1
+    attackRange: 1
+    critChance: 0.1
+    critMultiplier: 1.75
     projectileNumber: 0
     projectileSpeed: 0
-    health: 10
-    healthMax: 10
+    health: 50
+    healthMax: 50
     regen: 0
     defense: 0
-    blockChance: 0.05
+    blockChance: 0
     shield: 0
-    moveSpeed: 5
-    energy: 1
+    moveSpeed: 2
+    energy: 10
   target: {fileID: 0}
   explosion: {fileID: 7145114080286056385, guid: f9268bfe90001114e9468fb2a6ef5726, type: 3}
 --- !u!1 &6789218525872078878

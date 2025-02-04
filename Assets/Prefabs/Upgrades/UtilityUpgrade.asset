@@ -20,8 +20,8 @@ MonoBehaviour:
     attackRange: 0
     critChance: 0
     critMultiplier: 0
-    projectileNumber: 0.2
-    projectileSpeed: 2
+    projectileNumber: 0.1
+    projectileSpeed: 0.2
     health: 0
     healthMax: 0
     regen: 0
